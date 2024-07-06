@@ -86,53 +86,6 @@
                 <a class="nav-link" href="{{ route('site_settings.index') }}"><i class="fas fa-gift"></i>
                     <span>Site Setting</span></a> 
             </li>
-            <li class="{{ Request::routeIs('messages.*') ? 'active' : '' }}">
-                <a class="nav-link" href="{{ route('messages.create') }}"><i class="fas fa-gift"></i>
-                    <span>Message</span></a>  
-            </li>
-            <li class="{{ Request::routeIs('company_profiles.*') ? 'active' : '' }}">
-                <a class="nav-link" href="{{ route('company_profiles.create') }}"><i class="fas fa-gift"></i>
-                    <span>Compnay Profile</span></a>
-                </li>
-            <li class="{{ Request::routeIs('why-companys.*') ? 'active' : '' }}">
-                <a class="nav-link" href="{{ route('why-companys.create') }}"><i class="fas fa-gift"></i>
-                    <span>Why Company</span></a> 
-                </li>
-            <li class="{{ Request::routeIs('destinations.*') ? 'active' : '' }}">
-                <a class="nav-link" href="{{ route('destinations.index') }}"><i class="fas fa-gift"></i>
-                    <span>Destination</span></a>
-            </li>
-                <li class="{{ Request::routeIs('abouts.*') ? 'active' : '' }}">
-                    <a class="nav-link" href="{{ route('abouts.create') }}"><i class="fas fa-gift"></i>
-                        <span>About</span></a>
-                </li>
-                <li class="{{ Request::routeIs('home_countrys.*') ? 'active' : '' }}">
-                    <a class="nav-link" href="{{ route('home_countrys.index') }}"><i class="fas fa-gift"></i>
-                        <span>Home Country</span></a>
-                </li>
-
-            <li class="{{ Request::routeIs('abouts.*') ? 'active' : '' }}">
-                <a class="nav-link" href="{{ route('abouts.create') }}"><i class="fas fa-gift"></i>
-                    <span>About</span></a>
-            </li>
-
-            <li class="{{ Request::routeIs('home_services.*') ? 'active' : '' }}">
-                <a class="nav-link" href="{{ route('home_services.index') }}"><i class="fas fa-gift"></i>
-                    <span>Home Services</span></a> 
-            </li>
-
-            <li class="{{ Request::routeIs('home_why_us.*') ? 'active' : '' }}">
-                <a class="nav-link" href="{{ route('home_why_us.create') }}"><i class="fas fa-gift"></i>
-                    <span>Home Why Us</span></a>
-                </li>
-            <li class="{{ Request::routeIs('home_expriences.*') ? 'active' : '' }}">
-                <a class="nav-link" href="{{ route('home_expriences.index') }}"><i class="fas fa-gift"></i>
-                    <span>Home Exprience</span></a>
-            </li>
-            <li class="{{ Request::routeIs('blogs.*') ? 'active' : '' }}">
-                <a class="nav-link" href="{{ route('blogs.index') }}"><i class="fas fa-gift"></i>
-                    <span>Blog</span></a>
-            </li>
             @endrole
         </ul>
 
